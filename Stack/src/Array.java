@@ -1,5 +1,5 @@
 /**
- * Date: 2020/1/16 8:49 下午
+ * Date: 2020/1/22 2:30 下午
  *
  * @author 3zZ.
  */
@@ -94,6 +94,24 @@ public class Array<E> {
             throw new IllegalArgumentException("Require index > 0 && index < size. Add list failed");
         }
         return data[index];
+    }
+
+    /**
+     * 返回最后一位的元素
+     *
+     * @return 最后一位元素的值
+     */
+    public E getFirst() {
+        return get(size - 1);
+    }
+
+    /**
+     * 返回第一个元素的值
+     *
+     * @return 第一位元素的值
+     */
+    public E getLast() {
+        return get(0);
     }
 
     /**
@@ -203,3 +221,4 @@ public class Array<E> {
         data = newData;
     }
 }
+
