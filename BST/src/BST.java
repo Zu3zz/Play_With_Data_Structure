@@ -116,6 +116,11 @@ public class BST<E extends Comparable<E>> {
         preOrder(root);
     }
 
+    /**
+     * 前序遍历以node为根的二叉搜索树, 递归算法
+     *
+     * @param node 此轮遍历的根节点
+     */
     private void preOrder(Node node) {
         if (node == null) {
             return;
@@ -123,6 +128,27 @@ public class BST<E extends Comparable<E>> {
         System.out.println(node.e);
         preOrder(node.left);
         preOrder(node.right);
+    }
+
+    /**
+     * 二叉搜索树的中序遍历
+     */
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    /**
+     * 中序遍历以node为根的二叉搜索树, 递归算法
+     *
+     * @param node 此轮遍历的根节点
+     */
+    private void inOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        inOrder(root.left);
+        System.out.println(node.e);
+        inOrder(root.right);
     }
 
 
