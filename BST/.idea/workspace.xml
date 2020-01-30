@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13fb04dc-5e54-42ec-950d-1f7600a4be7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BST/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BST/BST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BST/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BST/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BST/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BST/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WzDDKsItEdxt9FXzYwXIgJeBLJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.21724138" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BST" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13fb04dc-5e54-42ec-950d-1f7600a4be7c" name="Default Changelist" comment="" />
+      <created>1580143409230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580143409230</updated>
+      <workItem from="1580143414087" duration="1442000" />
+      <workItem from="1580201619849" duration="7119000" />
+      <workItem from="1580290432675" duration="597000" />
+      <workItem from="1580305051245" duration="5577000" />
+      <workItem from="1580386446425" duration="18000" />
+      <workItem from="1580386708661" duration="2153000" />
+      <workItem from="1580388944336" duration="148000" />
+      <workItem from="1580389095647" duration="1533000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1005" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1580212233038">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state x="-1005" y="384" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580212233038" />
+    <state x="1640" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580388950142">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1640" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1580388950142" />
+    <state x="1128" y="123" width="1332" height="1217" key="DiffContextDialog" timestamp="1580387507191">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1128" y="123" width="1332" height="1217" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1580387507191" />
+    <state width="1490" height="289" key="GridCell.Tab.0.bottom" timestamp="1580369010729">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state width="1490" height="289" key="GridCell.Tab.0.bottom/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580369010729" />
+    <state width="1490" height="289" key="GridCell.Tab.0.center" timestamp="1580369010728">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state width="1490" height="289" key="GridCell.Tab.0.center/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580369010728" />
+    <state width="1490" height="289" key="GridCell.Tab.0.left" timestamp="1580369010727">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state width="1490" height="289" key="GridCell.Tab.0.left/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580369010727" />
+    <state width="1490" height="289" key="GridCell.Tab.0.right" timestamp="1580369010728">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state width="1490" height="289" key="GridCell.Tab.0.right/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580369010728" />
+    <state x="1282" y="313" key="SettingsEditor" timestamp="1580389113160">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1282" y="313" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1580389113160" />
+    <state x="1648" y="646" key="VCS.ChangelistChooser" timestamp="1580387408080">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1648" y="646" key="VCS.ChangelistChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1580387408080" />
+    <state x="-1106" y="297" width="670" height="676" key="search.everywhere.popup" timestamp="1580143672594">
+      <screen x="-2560" y="-28" width="2560" height="1417" />
+    </state>
+    <state x="-1106" y="297" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-2560.-28.2560.1417@-2560.-28.2560.1417" timestamp="1580143672594" />
+  </component>
+</project>
