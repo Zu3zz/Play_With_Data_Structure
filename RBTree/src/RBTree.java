@@ -54,6 +54,63 @@ public class RBTree<K extends Comparable<K>, V> {
         return node.color;
     }
 
+    //   node                     x
+    //  /   \     左旋转         /  \
+    // T1   x   --------->   node   T3
+    //     / \              /   \
+    //    T2 T3            T1   T2
+
+    /**
+     * 红黑树中的左旋转
+     *
+     * @param node
+     * @return
+     */
+    private Node leftRotate(Node node) {
+        Node x = node.right;
+        // 左旋转
+        node.right = x.left;
+        x.left = node;
+        // 变色
+        x.color = node.color;
+        node.color = RED;
+        return x;
+    }
+
+    //     node                   x
+    //    /   \     右旋转       /  \
+    //   x    T2   ------->   y   node
+    //  / \                       /  \
+    // y  T1                     T1  T2
+
+    /**
+     * 红黑树中的右旋转
+     *
+     * @param node
+     * @return
+     */
+    private Node rightRotate(Node node) {
+        Node x = node.left;
+        // 右旋转
+        node.left = x.right;
+        x.right = node;
+
+        x.color = node.color;
+        node.color = RED;
+        return x;
+    }
+
+    /**
+     * 颜色翻转
+     *
+     * @param node
+     */
+    private void flipColors(Node node) {
+        node.color = RED;
+        node.left.color = BLACK;
+        node.right.color = BLACK;
+    }
+
     /**
      * 向红黑树中添加新的元素(key, value)
      *
@@ -62,6 +119,7 @@ public class RBTree<K extends Comparable<K>, V> {
      */
     public void add(K key, V value) {
         root = add(root, key, value);
+        root.color = BLACK;
     }
 
     /**
@@ -75,6 +133,7 @@ public class RBTree<K extends Comparable<K>, V> {
     private Node add(Node node, K key, V value) {
         if (node == null) {
             size++;
+            // 默认插入红色节点
             return new Node(key, value);
         }
         if (key.compareTo(node.key) < 0) {
@@ -83,6 +142,18 @@ public class RBTree<K extends Comparable<K>, V> {
             node.right = add(node, key, value);
         } else { // key.compareTo(node.key) == 0
             node.value = value;
+        }
+        // 是否需要左旋转
+        if(isRed(node.right) && !isRed(node.left)){
+            node = leftRotate(node);
+        }
+        // 是否需要右旋转
+        if(isRed(node.left) && !isRed(node.left.left)){
+            node = rightRotate(node);
+        }
+        // 变色
+        if(isRed(node.left) && isRed(node.right)){
+            flipColors(node);
         }
         return node;
     }
@@ -181,14 +252,14 @@ public class RBTree<K extends Comparable<K>, V> {
             return node;
         } else { // key.compareTo(node.key) == 0
             // 待删除节点左子树为空
-            if(node.left == null){
+            if (node.left == null) {
                 Node rightNode = node.right;
                 node.right = null;
                 size--;
                 return rightNode;
             }
             // 待删除节点右子树为空的情况
-            if(node.right == null){
+            if (node.right == null) {
                 Node leftNode = node.left;
                 node.left = null;
                 size--;
